@@ -21,3 +21,7 @@ class StreamConnectionError(Exception):
 
 class StreamInactiveError(Exception):
     """Raised when the connection succeeds but no stream data is received in time."""
+
+
+class CameraNotFoundError(Exception):
+    """Raised when a camera cannot be found in the registry."""
